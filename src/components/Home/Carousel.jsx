@@ -20,17 +20,17 @@ const CarouselComponent = () => {
     <div className="w-full max-w-md mx-auto">
       <Slider {...settings}>
         <div>
-          <p className="text-lg font-semibold">
+          <p className="text-4xl font-semibold">
             Enhance fortune 50 company’s insights teams research capabilities
           </p>
         </div>
         <div>
-          <p className="text-lg font-semibold">
+          <p className="text-4xl font-semibold">
             Enhance fortune 50 company’s insights teams research capabilities
           </p>
         </div>
         <div>
-          <p className="text-lg font-semibold">
+          <p className="text-4xl font-semibold">
             Enhance fortune 50 company’s insights teams research capabilities
           </p>
         </div>
