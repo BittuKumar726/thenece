@@ -41,8 +41,14 @@
   color: #888;
 }
 
+.slick-dots li.slick-active button::before {
+  opacity: .75;
+  color: #2fda4b !important;
+}
+
 .slick-dots {
   display: block;
   position: relative;
-  left: -190px
+  left: -190px;
+
 }

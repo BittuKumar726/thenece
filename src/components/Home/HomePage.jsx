@@ -72,12 +72,12 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-start flex-col w-[40%] space-y-10">
+        <div className="flex justify-center items-start flex-col w-[40%] space-y-40">
           <div>
             <CarouselComponent />
           </div>
           <div>
-            <CustomButton className="rounded-full border pt-4 pb-4 pr-7 pl-7 bg-[#1C1C1C] text-white">
+            <CustomButton className="rounded-full border pt-4 pb-4 pr-7 pl-7 bg-[#1C1C1C] text-white hover:bg-[#4E4E4E]">
               <p className="flex items-center gap-4">
                 Explore More <FaArrowRightLong />
               </p>
