@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import CustomButton from "../../General/CustomButton";
 import logo1 from "../../assets/Logo/Vector.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
   const menuRef = useRef(null);
 
   const toggleMenu = () => {
@@ -35,6 +37,7 @@ const Navbar = () => {
 
   const getProjects = () => {
     console.log("getProjects");
+    navigate("/register");
     closeMenu();
   };
 

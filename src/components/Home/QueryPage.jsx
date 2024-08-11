@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import unionImg from "../../assets/Homepage/Union.png";
+
 const QueryPage = () => {
   const [open, setOpen] = useState(null);
 
@@ -8,20 +9,26 @@ const QueryPage = () => {
   };
 
   return (
-    <div className="bg-[#E8EEE7] rounded-[40px] flex justify-around p-6 w-full">
-      <div className="mt-8 w-[50%]">
-        <div className="pl-14  space-y-2">
-          <h2 className="text-3xl text-[#9E9D9D] font-grace">
+    <div className="bg-[#E8EEE7] rounded-[40px] flex flex-col lg:flex-row justify-between items-center lg:items-start p-6 w-full">
+      <div className="w-full lg:w-[50%] mb-10 lg:mb-0">
+        <div className="pl-6 lg:pl-14 space-y-2">
+          <h2 className="text-2xl lg:text-3xl text-[#9E9D9D] font-grace">
             What's on your mind
           </h2>
-          <h1 className="font-semibold font-manrope text-6xl">Ask Questions</h1>
+          <h1 className="font-semibold font-manrope text-4xl lg:text-6xl">
+            Ask Questions
+          </h1>
         </div>
-        <div className="h-[300px] mt-14">
-          <img src={unionImg} alt="union" className="h-[350px] w-[400px]" />
+        <div className="h-[200px] lg:h-[350px] mt-10 lg:mt-14 flex justify-center lg:justify-start">
+          <img
+            src={unionImg}
+            alt="union"
+            className="h-[250px] w-[300px] lg:h-[350px] lg:w-[400px]"
+          />
         </div>
       </div>
 
-      <div className="mt-10 space-y-4 w-[50%] pr-9">
+      <div className="w-full lg:w-[50%] space-y-4 pr-6 lg:pr-9">
         {faqData.map((faq, index) => (
           <div key={index} className="border-b-2 border-gray-300">
             <button

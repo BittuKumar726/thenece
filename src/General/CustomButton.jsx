@@ -1,13 +1,14 @@
 import React from "react";
 
 const CustomButton = (props) => {
-  const { children, width = "100px", height = "50px", ...rest } = props;
+  const { children, disabled = false, ...rest } = props;
   return (
     <button
       style={{
         fontSize: "20px",
         cursor: "pointer",
       }}
+      disabled={disabled} // Apply the disabled attribute
       {...rest}
     >
       {children}

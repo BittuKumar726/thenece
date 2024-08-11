@@ -6,11 +6,11 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="space-y-20">
+    <div className="space-y-10 lg:space-y-20">
       <div>
         <Navbar />
       </div>
-      <div className="w-full flex gap-60 flex-col">
+      <div className="w-full flex flex-col gap-10 lg:gap-60">
         <HomePage />
         <QueryPage />
       </div>
