@@ -32,17 +32,17 @@ const Register = () => {
   const isDisabled = !(fullName && email) ? true : false;
 
   return (
-    <div className="space-y-20">
+    <div className="space-y-10">
       <Header isSubmitted={isSubmitted} />
 
       {!isSubmitted ? (
         <>
-          <div className="flex justify-center items-center flex-col space-y-8">
+          <div className="flex justify-center items-center flex-col space-y-4">
             <span className="text-[#2DA950] font-grace text-2xl lg:text-5xl">
               Registration Form
             </span>
 
-            <p className="font-manrope text-[56px] font-semibold leading-[67.2px] text-center w-[598px] h-[134px]">
+            <p className="font-manrope text-[50px] font-semibold text-center w-[598px]">
               Start your success Journey here!
             </p>
           </div>

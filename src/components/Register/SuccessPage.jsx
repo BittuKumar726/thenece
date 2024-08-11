@@ -24,8 +24,8 @@ const SuccessPage = () => {
   }, [navigate]);
 
   return (
-    <div className="space-y-60">
-      <div className="flex justify-center items-center flex-col space-y-8 pt-[4rem]">
+    <div className="space-y-20">
+      <div className="flex justify-center items-center flex-col space-y-8 pt-[3rem]">
         <IoIosCheckmarkCircle color="#2DA950" size={90} />
 
         <span className="text-[#2DA950] font-grace text-2xl lg:text-5xl">
